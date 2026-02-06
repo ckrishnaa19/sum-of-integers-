@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+    int n,sum;
+    n=100;
+    sum=0;
+    while (n<=200)
+    {
+        if (n%7==0)
+        {
+            printf("\t%d",n);
+            sum=sum+n;
+        }
+        n=n+1;
+    }
+    printf("\nsum is %d",sum);
+}
